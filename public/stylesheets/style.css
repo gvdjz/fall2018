@@ -1,0 +1,52 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+  background-color: #f2f2f2;
+  border: 2px dashed grey ;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: fit-content;
+}
+
+h1:hover {
+  text-shadow: 2px 2px 15px;
+}
+
+li {
+  padding: 0 10px 0 10px;
+  display: inline;
+  background: #e3e3e3;
+  border: solid #f2f2f2 2px;
+  border-radius: 10px;
+}
+
+li:hover {
+  color: white;
+  background-color: black;
+}
+
+.gobutton {
+  font-size: 29px;
+  border: solid 1px;
+  border-radius: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  position: relative;
+  left: 5rem;
+  /* -webkit-transition:width 5s; */
+}
+
+.gobutton:hover {
+  width: 50px;
+  color: white;
+  background-color: black;
+  transition-duration: 1s;
+}
