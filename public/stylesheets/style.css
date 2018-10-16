@@ -10,6 +10,7 @@ a {
 }
 
 h1 {
+  margin: 0;
   background-color: #e0d4d4;
   border: 2px dashed grey ;
   border-radius: 15px;
@@ -20,8 +21,12 @@ h1 {
 
 .heading-wrapper {
   background-color: #e0d4d4;
-  padding: 1px;
-  padding-left: 20px;
+  width: fit-content;
+    margin-left: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+    padding: 5px 5px;
 }
 
 h1:hover {
@@ -29,11 +34,17 @@ h1:hover {
 }
 
 ul {
-
   display: inline;
+  position: absolute;
+  left: 80%
+}
+
+p {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
   position: relative;
-  left: 80%;
-  top: 50px;
+    top: -30px;
 }
 
 li {
@@ -51,6 +62,12 @@ li:hover {
 
 .content {
   padding: 50px;
+  border: solid darkgrey 2px;
+  margin: 10px 20rem;
+  border-radius: 50px;
+  position: relative;
+  background-color: #e0d4d4;
+  opacity: .9;
 }
 
 .gobutton {
@@ -62,8 +79,9 @@ li:hover {
   border-radius: 20px;
   padding-top: 0px;
   padding-bottom: 0px;
-  position: relative;
-  left: 3rem;
+  position: absolute;
+  left: 45%;
+  top:50%;
   /* -webkit-transition:width 5s; */
 }
 
@@ -75,7 +93,14 @@ li:hover {
   transition-duration: 1s;
 }
 
-hr {
-
-  margin: 0;
+.nav-bar {
+    position: relative;
+    padding: 5px 0;
+    background-color: darkgray;
+    border-top-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+    border-bottom-left-radius: 10%;
+    border-top-right-radius: 10%;
+    margin-top: 10px;
 }
+
